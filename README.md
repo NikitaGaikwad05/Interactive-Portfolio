@@ -29,24 +29,37 @@ real-time validation,providing a smooth and engaging user Experience.
 ## Project Structure
  Interactive-portfolio
        |-- index.html
+       
        |-- style.css
+       
        |-- script.js
+       
        |-- README.md
+       
        |-- imagaes
              |--profile.jpeg
+             
        |--Screenshot
              |--Dark-mode home1.jpeg
+             
              |--Dark-mode home2.jpeg
+             
              |--Dark-mode home3.jpeg
+             
              |--error-message.jpeg
+             
              |--light-mode home1.jpeg
+             
              |--light-mode home2.jpeg
+             
              |--light-mode home3.jpeg
+             
              |-- success-state.jpeg
   
 ## 📬 Contact me
   [GitHub] (https://github.com/NikitaGaikwad05)
 
-### Thanks For Visiting.
+###Thanks For Visiting.
+
 
 
