@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nikita Gaikwad | Interactive Portfolio</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <h2 class="logo">Nikita<span>G</span></h2>
+
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+      <button class="mode-btn" id="modeToggle">🌙</button>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Crafting <span>Modern</span><br>Web Experiences</h1>
+      <p>
+        I am Nikita Gaikwad, a passionate Web Developer and B.Tech student
+        focused on building clean, responsive, and interactive websites.
+      </p>
+      <a href="#contact" class="primary-btn">Let’s Connect</a>
+    </div>
+
+    <div class="hero-image">
+      <img src="images/profile.jpeg" alt="Nikita Gaikwad">
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section glass">
+    <h2>About Me</h2>
+    <p>
+      I am <strong>Nikita Gaikwad</strong> from Latur. I completed my Diploma from
+      <strong>Puranmal Lahoti Government Polytechnic, Latur</strong> with
+      <strong>First Class Distinction</strong>.
+    </p>
+    <p>
+      Currently pursuing <strong>B.Tech</strong> at
+      <strong>D Y Patil College of Engineering, Akurdi, Pune</strong>.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <h2>Technical Skills</h2>
+    <div class="skills-grid">
+      <div class="skill">HTML5</div>
+      <div class="skill">CSS3</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">Flexbox</div>
+      <div class="skill">CSS Grid</div>
+      <div class="skill">Responsive Design</div>
+      <div class="skill">Git & GitHub</div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section glass">
+    <h2>Contact Me</h2>
+
+    <form class="contact-form" id="contactForm">
+      <input type="text" id="name" placeholder="Your Name">
+      <input type="email" id="email" placeholder="Your Email">
+      <textarea id="message" rows="4" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+      <p class="form-message" id="formMessage"></p>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 Nikita Gaikwad @ Interactive Portfolio Website</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
