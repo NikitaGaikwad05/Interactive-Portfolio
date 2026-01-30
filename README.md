@@ -59,7 +59,8 @@ real-time validation,providing a smooth and engaging user Experience.
 ## 📬 Contact me
   [GitHub] (https://github.com/NikitaGaikwad05)
 
-###Thanks For Visiting.
+## Thanks For Visiting.
+
 
 
 
